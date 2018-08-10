@@ -20,15 +20,39 @@
         text-align: center;
     }
     </style>
-    
   </head>
 
   <body>
+
       <!-- <h1 id="nameHeader"> Eunice Wu </h1> -->
       <header class="animatedWave">
           <h1>Eunice Wu</h1>
         </header>
-    
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="webiste.html">Bio</a>
+            <a href="Books.html">Books</a>
+            <a href="schools.html">Schools</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          
+          <div id="main">
+            <!-- <h2>Sidenav Push Example</h2>
+            <p>Click on the element below to open the side navigation menu, and push this content to the right.</p> -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+          </div>
+          
+          <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
   <div id=everythingon>
       <div id= "bio">
         <font face="Comic Sans MS" color="palevioletred">
@@ -37,8 +61,9 @@
           I'm not looking forward to applying to colleges because it seems like a long process and the wait for the results would be long.
         When I grow up, I would like to major in finance, but incase I fail there, my back up plan would be management or other forms of business.
         And if I fail there too, then my last option would be law. Why not become a doctor? Well because I'm not trying to accidentally kill a person.
-        If I fail in all these areas, then I guess I'll resort to being a hobo because what's left to do when you have failed at everything. </p>
-        <img id= "sadself" src= "othersadimageofself.jpg">
+        If I fail in all these areas, then I guess I'll resort to being a hobo because what's left to do when you have failed at everything. No, I'm just kidding 
+        I'd find something else to do but as of now, I don't have a plan after failing as a lawyer. </p>
+        <img id= "sadself" onclick="changePic()" src= "othersadimageofself.jpg">
       </div> 
 <!-- </body> -->
 <!-- 
@@ -65,5 +90,6 @@
           <input class="button" type="button" value="CLICK HERE" onclick="window.location.href='https://www.youtube.com/watch?v=DQ9XWXxhuj8'" />
         </div>
   </div>
+
 </body>
 </html>

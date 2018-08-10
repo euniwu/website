@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SCHOOLS I WENT TO AND WANT TO GO TO </title>
+    <link rel="stylesheet" href="schools.css">
+  </head>
+  <body>
+  <header class="animatedWave">
+        <h1 id = "header">Schools I went/want to go to </h1>
+  </header>
+  <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="website.html">Bio</a>
+        <a href="Books.html">Books</a>
+        <a href="schools.html">Schools</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div id="main">
+        <!-- <h2>Sidenav Push Example</h2>
+        <p>Click on the element below to open the side navigation menu, and push this content to the right.</p> -->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+      </div>
+      
+      <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    <h2 id ="els">Elementary schools</h2>
+    <div id = "elem">
+        <div id = "sfirst">
+         <h3 id = "first">P.S.48</h3>
+            <p>This was the first elementary school I went to before I moved to Queens in 2007</p>
+            <img id ="ps48" src= "ps48.jpg">
+        </div>
+
+        <div id = "ssecond">
+        <h3 id= "second">P.S.221Q (North Hills Elementary School)</h3>
+            <p>This was the elemetary school I went to after I moved to Queens and I graduated from this school</p>
+            <img id ="ps221" src= "ps221.jpg">
+        </div>
+    </div>
+
+    <div id = "Midsch">
+        <center>
+    <h2>Middle School</h2>
+    </div>
+    <div id = "middle">
+        <div id = "tschool">
+        <h3 id = "third">M.S.67 (Louis Pasteur Middle School)</h3>
+            <p>This is the middle school that I went to and I made new friends but also lost some old ones. These were the years where I loved going
+            school</p>
+            <img id ="ms67" src= "ms67.JPG">
+        </div>
+    </center>
+    </div>
+    <div id = "highsch">
+    <h2>High School</h2>
+    </div>
+    <div id = "high">
+        <div id = "fschool">
+        <h3 id = "fourth">Benjamin N. Cardozo High School</h3>
+            <p>This is the school I am currently enrolled in and will graduate from in the next year.</p>
+            <img id ="cardozo" src= "cardozo.jpg">
+        </div>
+    </div>
+    <div id= "college">
+        <h2 id= "colleges">Colleges I want/ am applying to</h2>
+        <div id= "uni">
+        <div id= "BU">
+            <h3 id= "fischool"> Boston University</h3>
+            <p id ="budes"> This is the college that I want to get into that is not an ivy league
+            and I'm hoping to get a good amount of scholarship so I don't cause my parents more stress.</p>
+            <img id = "BUni" src="BU.jpg">
+        </div>
+        <div id="NE">
+            <h3 id= "North"> Northeastern</h3>
+            <p id="eastern"> This is another college I want to get into but its also very expensive soooooo... let's wait and see</p>
+            <img id= "northe" src="northeastern.jpg">
+        </div>
+        <div id="Binghamton">
+                <h3 id= "bi"> Binghamton</h3>
+                <p id="b"> This is a collge that I am considering and this is one of my low target schools</p>
+                <img id= "bing" src="bing.jpg">
+        </div>
+        <div id="Baruch">
+                <h3 id= "ba"> Baruch</h3>
+                <p id="bar"> This is a collge that I am appling to and this is one of my safety schools</p>
+                <img id= "baruc" src="baruch.jpg">
+        </div>
+    </div>
+</body>
+</html>

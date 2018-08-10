@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>book </title>
+    <link rel="stylesheet" href="books.css">
+  </head>
+  <body>
+  <header class="animatedWave">
+        <h1 id = "header">Weekly books/ series to read</h1>
+  </header>
+  <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="website.html">Bio</a>
+        <a href="Books.html">Books</a>
+        <a href="schools.html">Schools</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div id="main">
+        <!-- <h2>Sidenav Push Example</h2>
+        <p>Click on the element below to open the side navigation menu, and push this content to the right.</p> -->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More Info</span>
+      </div>
+      
+      <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+      <div id = "MRB">
+          <h1>These are books that I have read and would reccomend to people who like reading</h1>
+          <img id = "half blood" src="half blood.jpg">
+          <img id = "pure" src="pure.jpg">
+          <img id = "deity" src= "deity.jpg">
+          <img id = "apollyon" src= 'apolloyon2.jpg'>
+          <img id = 'sentinel' src="sentinel.jpg">
+          <h2>This is a series surrounding greek mythology and a God Killer. BEST SERIES EVER!!!!!</h2>
+      </div>
