@@ -126,12 +126,12 @@ body{
 }
 
 #bio{
-        border: solid 3px cyan;
-        margin: 8px;
+        border: solid 2px cyan;
+        margin: 15px;
         text-align: center;
-        width: 40%;
+        width: 45%;
         background:linear-gradient(to top right, rgb(39, 39, 82) 0%, rgb(140, 151, 250) 100%);
-        font-size: 30px;
+        font-size: 175%;
         /* height: 0%; */
     
     
